@@ -25,7 +25,7 @@ main(void)
 
 	GpioD0::connect(Uart::Rx);
 	GpioD1::connect(Uart::Tx);
-	Uart::initialize<Uart::B115200>();
+	Uart::initialize<Uart::B38400>();
 
 	xpcc::atmega::enableInterrupts();
 	XPCC_LOG_INFO << "\n\nRESTART\n\n";
