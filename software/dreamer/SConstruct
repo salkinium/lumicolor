@@ -1,5 +1,5 @@
-
-env = Environment(tools = ['xpcc'], toolpath = ['../xpcc/scons/site_tools'])
+env = Environment(tools = ['xpcc'], toolpath = ['../../../ekiwi_xpcc/scons/site_tools'])
+#env = Environment(tools = ['xpcc'], toolpath = ['../xpcc/scons/site_tools'])
 
 # find all source files
 files = env.FindFiles(
