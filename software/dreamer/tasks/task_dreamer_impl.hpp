@@ -21,9 +21,9 @@ task::Dreamer::Dreamer()
 }
 
 bool
-task::Dreamer::run()
+task::Dreamer::update()
 {
-	colorLed.run();
+	colorLed.update();
 
 	PT_BEGIN();
 

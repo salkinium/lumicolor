@@ -25,7 +25,7 @@ public:
 	Input();
 
 	bool
-	run();
+	update();
 
 private:
 	xpcc::PeriodicTimer<> timer;

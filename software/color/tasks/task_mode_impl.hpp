@@ -32,7 +32,7 @@ task::Mode::setColorSpace(ColorSpace space)
 }
 
 bool
-task::Mode::run()
+task::Mode::update()
 {
 	PT_BEGIN();
 

@@ -25,7 +25,7 @@ public:
 	Dreamer();
 
 	bool
-	run();
+	update();
 
 private:
 	xpcc::Timeout<> timeout;

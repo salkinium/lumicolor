@@ -16,9 +16,9 @@ main(void)
 {
 	// set the led pins
 	initializeLeds();
-	RedLedPin::setOutput(xpcc::Gpio::LOW);
-	GreenLedPin::setOutput(xpcc::Gpio::LOW);
-	BlueLedPin::setOutput(xpcc::Gpio::LOW);
+	RedLedPin::setOutput(xpcc::Gpio::Low);
+	GreenLedPin::setOutput(xpcc::Gpio::Low);
+	BlueLedPin::setOutput(xpcc::Gpio::Low);
 
 //	LightSensorPin::setInput();
 //
@@ -35,7 +35,7 @@ main(void)
 
 	while(1)
 	{
-		dreamer.run();
+		dreamer.update();
 	}
 
 	return 0;

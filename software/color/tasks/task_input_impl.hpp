@@ -27,9 +27,9 @@ task::Input::Input()
 }
 
 bool
-task::Input::run()
+task::Input::update()
 {
-	modeTask.run();
+	modeTask.update();
 
 	PT_BEGIN();
 

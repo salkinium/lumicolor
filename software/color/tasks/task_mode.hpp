@@ -25,7 +25,7 @@ public:
 	setColorSpace(ColorSpace space);
 
 	bool
-	run();
+	update();
 
 private:
 	xpcc::Timeout<> timeout;
